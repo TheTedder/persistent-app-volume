@@ -1,6 +1,6 @@
 ﻿namespace PersistentAppVol
 {
-    partial class Service1
+    partial class AppVolMngr
     {
         /// <summary> 
         /// Required designer variable.
@@ -28,8 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
-            this.ServiceName = "Service1";
+            // 
+            // AppVolMngr
+            // 
+            this.CanPauseAndContinue = true;
+            this.ServiceName = "AppVolMngr";
+
         }
 
         #endregion

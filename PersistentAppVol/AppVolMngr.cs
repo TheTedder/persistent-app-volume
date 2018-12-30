@@ -10,11 +10,12 @@ using System.Threading.Tasks;
 
 namespace PersistentAppVol
 {
-    public partial class Service1 : ServiceBase
+    public partial class AppVolMngr : ServiceBase
     {
-        public Service1()
+        public AppVolMngr()
         {
-            InitializeComponent();
+            InitializeComponent(); //reminder: don't delete this
+
         }
 
         protected override void OnStart(string[] args)
