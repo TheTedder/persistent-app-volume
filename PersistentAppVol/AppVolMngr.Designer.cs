@@ -28,11 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            // 
-            // AppVolMngr
-            // 
-            this.CanPauseAndContinue = true;
-            this.ServiceName = "AppVolMngr";
 
         }
 
